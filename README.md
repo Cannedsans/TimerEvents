@@ -10,7 +10,7 @@ Add the library to your `platformio.ini` file:
 
 ```ini
 lib_deps =
-    [https://github.com/your-username/TimerEvents.git](https://github.com/your-username/TimerEvents.git)
+    https://github.com/Cannedsans/TimerEvents
 ```
 ## Important Notices
 
