@@ -4,14 +4,6 @@ A task scheduler library for Arduino (ATmega328P/Arduino Uno), 100% based on **h
 
 ---
 
-## Installation
-
-Add the library to your `platformio.ini` file:
-
-```ini
-lib_deps =
-    [https://github.com/your-username/TimerEvents.git](https://github.com/your-username/TimerEvents.git)
-```
 ## Important Notices
 
 * Keep tasks lightweight: Do not use this library for large code blocks or within functions that utilize delay().
