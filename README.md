@@ -1,7 +1,7 @@
 # TimerEvents
 
 A task scheduler library for Arduino (ATmega328P/Arduino Uno), 100% based on **hardware interrupts (Timer1)**.
-
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/cannedsans/library/TimerEvents.svg)](https://registry.platformio.org/libraries/cannedsans/TimerEvents)
 ---
 
 ## Installation
