@@ -1,5 +1,6 @@
 #include "events.h"
 #include <avr/io.h>
+#include <avr/interrupt.h>
 
 struct Task {
   void (*function)();
@@ -8,8 +9,8 @@ struct Task {
 };
 
 const int max = 10;
-int total = 0;
-Task taskList[max];
+volatile int total = 0;
+volatile Task taskList[max];
 
 void attachEvent(void (*userFunc)(void), int interval) {
     if (total < max) {

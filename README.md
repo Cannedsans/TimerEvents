@@ -5,14 +5,7 @@ A task scheduler library for Arduino (ATmega328P/Arduino Uno), 100% based on **h
 [![PlatformIO Registry](https://badges.registry.platformio.org/packages/cannedsans/library/TimerEvents.svg)](https://registry.platformio.org/libraries/cannedsans/TimerEvents)
 ---
 
-## Installation
 
-Add the library to your `platformio.ini` file:
-
-```ini
-lib_deps =
-    https://github.com/Cannedsans/TimerEvents
-```
 ## Important Notices
 
 * Keep tasks lightweight: Do not use this library for large code blocks or within functions that utilize delay().
@@ -24,13 +17,7 @@ lib_deps =
 # Em PT-BR
 
 Uma biblioteca de agendamento de tarefas (task scheduler) para Arduino (ATmega328P/Arduino Uno), baseada 100% em **interrupção por hardware (Timer1)**.
-## Instalação
 
-Adicione a biblioteca ao seu arquivo `platformio.ini`:
-```Ini
-lib_deps =
-    [https://github.com/seu-usuario/TimerEvents.git](https://github.com/seu-usuario/TimerEvents.git)
-```
 ## Avisos Importantes
 
 * Mantenha o código leve: Não utilize para blocos de códigos grandes ou que usem a função `delay()`.

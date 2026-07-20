@@ -1,6 +1,6 @@
 {
   "name": "TimerEvents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Um agendador de tarefas baseado em interrupção por hardware (Timer1) para Arduino.",
   "keywords": "timer, scheduler, interruption, background, task",
   "authors": [
