@@ -1,0 +1,18 @@
+{
+  "name": "TimerEvents",
+  "version": "1.0.0",
+  "description": "Um agendador de tarefas baseado em interrupção por hardware (Timer1) para Arduino.",
+  "keywords": "timer, scheduler, interruption, background, task",
+  "authors": [
+    {
+      "name": "João Felipe",
+      "email": "felizardoDev@proton.me"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cannedsans/TimerEvents"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
